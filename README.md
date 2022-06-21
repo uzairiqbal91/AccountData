@@ -1,5 +1,11 @@
 # AccountData
 
+
+Download and install two extensions in VS Code from the Extension Marketplace:
+
+Docker (https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+Remote Development (https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+
 | **Open Docker Container**      | **Open Folder In Container**  
 |------------|-------------| 
 |  <img src="https://github.com/uzairiqbal91/AccountData/blob/master/workspace/AccountData/assets/images/screenshot/14.png" width="250"> |  <img src="https://github.com/uzairiqbal91/AccountData/blob/master/workspace/AccountData/assets/images/screenshot/15.png" width="250"> |  
