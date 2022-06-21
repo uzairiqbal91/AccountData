@@ -1,3 +1,3 @@
 # AccountData
 
-https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
+https://github.com/uzairiqbal91/AccountData/blob/master/workspace/AccountData/assets/images/screenshot/1.png
