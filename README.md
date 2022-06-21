@@ -1,12 +1,22 @@
 # AccountData
 
-After setup might face the problem of token expire 
+After setup might face the problem of token expire or incorrect token problem 
 
 
 
  | **When Token Not Correct**      | **When Toekn Correct - Result**  
 |------------|-------------| 
 |  <img src="https://github.com/uzairiqbal91/AccountData/blob/master/workspace/AccountData/assets/images/screenshot/1.png" width="250"> |  <img src="https://github.com/uzairiqbal91/AccountData/blob/master/workspace/AccountData/assets/images/screenshot/2.png" width="250"> |  
+
+To resolve this issue , you should get token by authorization process 
+select OAuth 2.0
+Callback URL : http://localhost
+Auth URL : input Auth Url that given by Microsoft 365
+Client ID : input Client ID that given by Microsoft 365
+
+than get new access token 
+and replace in TOKEN Consant -> app_resource/app_constants
+for getting images you should also repleace the APPURI -> app_resource/app_constants
 
 | **OUTH2.0 Configuration For Token**      | **Updated Token**  
 |------------|-------------| 
