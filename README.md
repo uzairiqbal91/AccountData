@@ -6,6 +6,8 @@ Download and install two extensions in VS Code from the Extension Marketplace:
 Docker (https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 Remote Development (https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
+After installing the extenstions , click dev container in bottom left of the scrren and select open folder in container . Container will be open and you shoudl run the project from there .
+
 | **Open Docker Container**      | **Open Folder In Container**  
 |------------|-------------| 
 |  <img src="https://github.com/uzairiqbal91/AccountData/blob/master/workspace/AccountData/assets/images/screenshot/14.png" width="250"> |  <img src="https://github.com/uzairiqbal91/AccountData/blob/master/workspace/AccountData/assets/images/screenshot/15.png" width="250"> |  
@@ -41,5 +43,8 @@ for getting images you should also repleace the APPURI -> app_resource/app_const
 | **No Internet Found**      | **Skeleton Loader With Filter Loading**  
 |------------|-------------| 
 |  <img src="https://github.com/uzairiqbal91/AccountData/blob/master/workspace/AccountData/assets/images/screenshot/9.png" width="250"> |  <img src="https://github.com/uzairiqbal91/AccountData/blob/master/workspace/AccountData/assets/images/screenshot/11.png" width="250"> |  
+
+These models are creating by this command : flutter pub run build_runner watch --delete-conflicting-outputs 
+these files are creating by freezed package , this pacakge is use for creating most of implementaion model function by itself 
 
 <img src="https://github.com/uzairiqbal91/AccountData/blob/master/workspace/AccountData/assets/images/screenshot/16.png" width="250"> 
